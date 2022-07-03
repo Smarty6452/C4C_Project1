@@ -1,0 +1,248 @@
+// $maincolor:red;
+$primarycolor: #54c7fa;
+// $secondarycolor: #555555;
+// $color-primary-light: #999999;
+// $fcolor: #222529;
+// $f2color: #d6d3cc;
+// $brandcolor: #f4f4f4;
+
+// login-page
+img {
+  max-width: 100%;
+}
+.page {
+  .col-lg-6 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .col-lg-5 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .image {
+    padding: 0;
+  }
+  .title-section {
+    background-color: black;
+    color: white;
+    height: 30vh;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+  .input {
+    background: transparent;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 25vw;
+    height: 3vw;
+    padding: 0;
+    background-color: $primarycolor;
+    border: none;
+  }
+}
+
+// logo
+
+.logo-container {
+  // margin: 6rem;
+  padding-top: 7rem;
+  padding-left: 8rem;
+  .logo-login-signup {
+    background-color: black;
+    // display: inline-block;
+  }
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 8rem;
+}
+
+// dashboard
+
+//sidebar
+#page-content-wrapper {
+  padding-left: 2em;
+  padding-top: 2rem;
+  flex: 1 0 auto;
+}
+#sidebar-wrapper {
+  background-color: black;
+  color: white;
+  // padding-top: 0.5rem;
+  font-size: 14px;
+  flex: 1 0 auto;
+}
+.sidebar {
+  color: white;
+
+  .logo-container {
+    padding: 20px 10px;
+  }
+  .nav-link {
+    color: white;
+  }
+}
+
+.MdSpeed {
+  margin-right: 8px;
+  font-style: 10;
+}
+
+.dashboard {
+  margin-bottom: 2rem;
+}
+
+#collapse-sidebar-btn {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+  }
+}
+
+// card-section
+
+.card-section {
+  width: 65rem;
+  .card-collection {
+    margin-right: 30px;
+    width: 16vw;
+  }
+  .card-body {
+    padding-right: 4rem;
+    width: 20rem;
+  }
+  .icon {
+    padding-right: 1rem;
+  }
+  .logo {
+    display: flex;
+    // background-color: orange;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: white;
+  }
+}
+
+.content {
+  padding-left: 25px;
+  h6 {
+    font-weight: normal;
+    color: gray;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.attendance-wrapper {
+  margin: 12px;
+  height: 7vh;
+  width: 100%;
+
+  margin-right: 211px;
+  background-color: rgb(226, 223, 223);
+  span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .attendance-status {
+    font-weight: bold;
+  }
+}
+.clock-wrap {
+  margin-bottom: 1rem;
+  .clock-status {
+    font-weight: bold;
+  }
+  .text-muted {
+    font-size: 13px;
+  }
+}
+
+.workin-place-wrapper {
+  .work-status {
+    font-weight: bold;
+  }
+}
+
+.clock-btn {
+  button {
+  
+  margin-right: 40px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  width: 8rem;
+  }
+  
+}
+
+// Add Employee Section 
+.employees {
+ 
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+ 
+  .employe-icon{
+    margin-right: 10px;
+    margin-bottom: 3px;
+
+  }
+  button {
+    border-radius: 3px;
+    border: 2px solid rgb(59, 239, 239);
+    color: rgb(59, 239, 239);
+    background-color: transparent;
+    font-weight: bold;
+  }
+}
+
+.employee-detail {
+  // border: 2px solid red;
+  margin-top: 1rem;
+  margin-right: 228px;
+  .card-body {
+    border: 2px solid green;
+    height: 10vh;
+  }
+}
+
+.entries {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15rem;
+  input {
+   border: 1px solid gray;
+  }
+}

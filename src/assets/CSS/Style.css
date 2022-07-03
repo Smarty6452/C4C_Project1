@@ -1,0 +1,217 @@
+img {
+  max-width: 100%;
+}
+
+.page .col-lg-6 {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.page .col-lg-5 {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.page .image {
+  padding: 0;
+}
+.page .title-section {
+  background-color: black;
+  color: white;
+  height: 30vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 4rem;
+}
+.form .input {
+  background: transparent;
+  border-width: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: 0;
+}
+.form .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 25vw;
+  height: 3vw;
+  padding: 0;
+  background-color: #54c7fa;
+  border: none;
+}
+
+.logo-container {
+  padding-top: 7rem;
+  padding-left: 8rem;
+}
+.logo-container .logo-login-signup {
+  background-color: black;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 0 8rem;
+}
+
+#page-content-wrapper {
+  padding-left: 2em;
+  padding-top: 2rem;
+  flex: 1 0 auto;
+}
+
+#sidebar-wrapper {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  flex: 1 0 auto;
+}
+
+.sidebar {
+  color: white;
+}
+.sidebar .logo-container {
+  padding: 20px 10px;
+}
+.sidebar .nav-link {
+  color: white;
+}
+
+.MdSpeed {
+  margin-right: 8px;
+  font-style: 10;
+}
+
+.dashboard {
+  margin-bottom: 2rem;
+}
+
+#collapse-sidebar-btn {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+}
+#collapse-sidebar-btn li {
+  list-style: none;
+}
+#collapse-sidebar-btn a {
+  color: white;
+}
+
+.card-section {
+  width: 65rem;
+}
+.card-section .card-collection {
+  margin-right: 30px;
+  width: 16vw;
+}
+.card-section .card-body {
+  padding-right: 4rem;
+  width: 20rem;
+}
+.card-section .icon {
+  padding-right: 1rem;
+}
+.card-section .logo {
+  display: flex;
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  color: white;
+}
+
+.content {
+  padding-left: 25px;
+}
+.content h6 {
+  font-weight: normal;
+  color: gray;
+}
+.content span {
+  font-weight: bold;
+}
+
+.attendance-wrapper {
+  margin: 12px;
+  height: 7vh;
+  width: 100%;
+  margin-right: 211px;
+  background-color: rgb(226, 223, 223);
+}
+.attendance-wrapper span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+.attendance-wrapper .attendance-status {
+  font-weight: bold;
+}
+
+.clock-wrap {
+  margin-bottom: 1rem;
+}
+.clock-wrap .clock-status {
+  font-weight: bold;
+}
+.clock-wrap .text-muted {
+  font-size: 13px;
+}
+
+.workin-place-wrapper .work-status {
+  font-weight: bold;
+}
+
+.clock-btn button {
+  margin-right: 40px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  width: 8rem;
+}
+
+.employees {
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.employees .employe-icon {
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+.employees button {
+  border-radius: 3px;
+  border: 2px solid rgb(59, 239, 239);
+  color: rgb(59, 239, 239);
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.employee-detail {
+  margin-top: 1rem;
+  margin-right: 228px;
+}
+.employee-detail .card-body {
+  border: 2px solid green;
+  height: 10vh;
+}
+
+.entries {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15rem;
+}
+.entries input {
+  border: 1px solid gray;
+}/*# sourceMappingURL=Style.css.map */
